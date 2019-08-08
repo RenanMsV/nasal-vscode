@@ -1,0 +1,25 @@
+{
+    "name": "nasal-lang",
+    "displayName": "Nasal-lang",
+    "description": "Nasal language support for Visual Code",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.36.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "nasal",
+            "aliases": ["Nasal", "nasal"],
+            "extensions": [".nas"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "nasal",
+            "scopeName": "source.nas",
+            "path": "./syntaxes/nasal.tmLanguage.json"
+        }]
+    }
+}
