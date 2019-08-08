@@ -1,0 +1,92 @@
+{
+    "For Loop": {
+        "prefix": [
+            "for"
+        ],
+        "body": [
+            "for (var i=${2:0}; i < ${1:length}; i = i+${3:1}) {",
+            "\t$0",
+            "}"
+        ],
+        "description": "Snippet: A for loop."
+    },
+    "Foreach Loop": {
+        "prefix": [
+            "foreach"
+        ],
+        "body": [
+            "foreach(${2:elem}; ${1:list}){",
+            "\t$0",
+            "}"
+        ],
+        "description": "Snippet: A foreach loop."
+    },
+    "ForeachIndex Loop": {
+        "prefix": [
+            "forindex"
+        ],
+        "body": [
+            "forindex(${2:i}; ${1:list}) {",
+            "\t$0",
+            "}"
+        ],
+        "description": "Snippet: A forindex loop."
+    },
+    "While Loop": {
+        "prefix": [
+            "while"
+        ],
+        "body": [
+            "while (${1:condition}) {",
+            "\t$0",
+            "}"
+        ],
+        "description": "Snippet: A while loop."
+    },
+    "Ternary Condition": {
+        "prefix": [
+            "ternary"
+        ],
+        "body": [
+            "(${1:condition}) ? ${2:condition_true_expr1} : ${3:condition_false_expr2}"
+        ],
+        "description": "Snippet: A ternary condition."
+    },
+    "If Condition": {
+        "prefix": [
+            "if"
+        ],
+        "body": [
+            "if (${1:condition}) {",
+            "\t$0",
+            "}"
+        ],
+        "description": "Snippet: A if condition."
+    },
+    "If-Else Condition": {
+        "prefix": [
+            "ifelse"
+        ],
+        "body": [
+            "if (${1:condition}) {",
+            "\t$2",
+            "} else {",
+            "\t$0",
+            "}"
+        ],
+        "description": "Snippet: A if else condition."
+    },
+    "If-Elsif Condition": {
+        "prefix": [
+            "ifelsif"
+        ],
+        "body": [
+            "if (${1:condition}) {",
+            "\t$2",
+            "} elsif (${3:condition}) {",
+            "\t$0",
+            "}"
+        ],
+        "description": "Snippet: A if elsif condition."
+    }
+}

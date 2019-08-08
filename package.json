@@ -7,7 +7,8 @@
         "vscode": "^1.36.0"
     },
     "categories": [
-        "Programming Languages"
+        "Programming Languages",
+        "Snippets"
     ],
     "contributes": {
         "languages": [{
@@ -20,6 +21,18 @@
             "language": "nasal",
             "scopeName": "source.nas",
             "path": "./syntaxes/nasal.tmLanguage.json"
-        }]
+        }],
+        "snippets": [
+            {
+                "language": "nasal",
+                "scopeName": "source.nas",
+                "path": "./snippets/nasal.json"
+            },
+            {
+                "language": "nasal",
+                "scopeName": "source.nas",
+                "path": "./snippets/nasal.fg.json"
+            }
+        ]
     }
 }
