@@ -1,7 +1,7 @@
 # nasal-lang
 ![nasal-logo](https://i.imgur.com/JCBBjrX.png)
 
-Nasal language support for Visual Studio
+Nasal language support for Visual Studio Code
 
 ##### Thanks to
 - @freevryheid for his awesome patterns at [Sublime2/Nasal](https://github.com/freevryheid/nasal)

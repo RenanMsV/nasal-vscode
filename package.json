@@ -1,7 +1,7 @@
 {
     "name": "nasal-lang",
     "displayName": "Nasal-lang",
-    "description": "Nasal language support for Visual Code",
+    "description": "Nasal language support for Visual Studio Code",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.36.0"
