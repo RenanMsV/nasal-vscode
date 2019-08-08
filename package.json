@@ -3,12 +3,31 @@
     "displayName": "Nasal-lang",
     "description": "Nasal language support for Visual Studio Code",
     "version": "0.0.1",
-    "engines": {
-        "vscode": "^1.36.0"
+    "publisher": "RenanMsV",
+    "author": {
+        "name": "RenanMsV https://github.com/RenanMsV"
     },
+    "icon": "images/icon.png",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "license": "GPL",
+    "bugs": {
+        "url": "https://github.com/RenanMsV/nasal-vscode/issues",
+        "email": "none@none.none"
+    },
+    "repository": {
+        "type": "git",
+        "url" : "https://github.com/RenanMsV/nasal-vscode.git"
+    },
+    "homepage": "https://github.com/RenanMsV/nasal-vscode",
     "categories": [
         "Programming Languages",
         "Snippets"
+    ],
+    "keywords": [
+        "nasal",
+        "flightgear"
     ],
     "contributes": {
         "languages": [{
