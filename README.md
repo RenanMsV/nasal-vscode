@@ -1,5 +1,5 @@
 # nasal-lang
-![nasal-logo](/images/icon?raw=true)
+![nasal-logo](/images/icon.png?raw=true)
 
 Nasal language support for Visual Studio Code
 
