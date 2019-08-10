@@ -34,6 +34,9 @@
 		},
 		{
 			"include": "#funcs-fg-ospath"
+		},
+		{
+			"include": "#funcs-fg-gui"
 		}
 	],
 	"repository": {
@@ -140,7 +143,11 @@
 			"patterns": [
 				{
 					"name": "entity.name.function.nasal",
-					"match": "\\b(abort|abs|aircraftToCart|addcommand|airportinfo|airwaysRoute|assert|carttogeod|cmdarg|courseAndDistance|createDiscontinuity|createViaTo|createWP|createWPFrom|defined|directory|fgcommand|findAirportsByICAO|findAirportsWithinRange|findFixesByID|findNavaidByFrequency|findNavaidsByFrequency|findNavaidsByID|findNavaidsWithinRange|finddata|flightplan|geodinfo|geodtocart|get_cart_ground_intersection|getprop|greatCircleMove|interpolate|isa|logprint|magvar|maketimer|maketimestamp|md5|navinfo|parse_markdown|parsexml|print|printf|printlog|rand|registerFlightPlanDelegate|removecommand|removelistener|resolvepath|setlistener|_setlistener|setprop|srand|systime|thisfunc|tileIndex|tilePath|values)\\b"
+					"match": "\\b(abort|abs|aircraftToCart|addcommand|airportinfo|airwaysRoute|assert|carttogeod|cmdarg|courseAndDistance|createDiscontinuity|createViaTo|createWP|createWPFrom|defined|directory|fgcommand|findAirportsByICAO|findAirportsWithinRange|findFixesByID|findNavaidByFrequency|findNavaidsByFrequency|findNavaidsByID|findNavaidsWithinRange|finddata|flightplan|geodinfo|geodtocart|get_cart_ground_intersection|getprop|greatCircleMove|interpolate|isa|logprint|magvar|maketimer|start|stop|restart|maketimestamp|md5|navinfo|parse_markdown|parsexml|print|printf|printlog|rand|registerFlightPlanDelegate|removecommand|removelistener|resolvepath|setlistener|_setlistener|setprop|srand|systime|thisfunc|tileIndex|tilePath|values)\\b"
+				},
+				{
+					"name": "variable.language.nasal",
+					"match": "\\b(singleShot|isRunning|simulatedTime)\\b"
 				}
 			]
 		},
@@ -253,6 +260,18 @@
 				{
 					"name": "entity.name.class.nasal",
 					"match": "\\b(os\\.path)\\b"
+				}
+			]
+		},
+		"funcs-fg-gui": {
+			"patterns": [
+				{
+					"name": "entity.name.function.nasal",
+					"match": "\\b(popupTip|showDialog|menuEnable|menuBind|setCursor|findElementByName|fpsDisplay|latencyDisplay|popdown|set|setColor|setFont|setBinding|state|del|load|toggle|is_open|reinit|rescan|select|next|previous|set_title|set_button|set_directory|set_file|set_dotfiles|set_pattern|save_flight|load_flight|set_screenshotdir|property_browser|dialog_apply|dialog_update|enable_widgets|nextStyle|setWeight|setWeightOpts|weightChangeHandler|showWeightDialog|showHelpDialog)\\b"
+				},
+				{
+					"name": "entity.name.class.nasal",
+					"match": "\\b(gui|Widget|Dialog|OverlaySelector|FileSelector|DirSelector)\\b"
 				}
 			]
 		}

@@ -4,9 +4,9 @@
             "setlistener"
         ],
         "body": [
-            "var ${1:listener} = setlistener(\"${2:/sim/test}\", func(${3:n}, ${4:0}, ${5:0}){",
+            "var ${1:listener} = setlistener(\"${2:/sim/test}\", func(${3:n}){",
             "\t${0:print(\"Value: \", ${3:n}.getValue());}",
-            "});"
+            "}, ${4:0}, ${5:0});"
         ],
         "description": "Snippet: A setlistener template"
     },
@@ -32,5 +32,69 @@
             "${1:timer}.start();"
         ],
         "description": "Snippet: A maketimer template"
+    },
+    "FG Func": {
+        "prefix": [
+            "func"
+        ],
+        "body": [
+            "##",
+            "# ${1:This is the function header}",
+            "# ${2:try to explain what it does.}",
+            "#",
+            "# ${3:Example:  write here an example of code}",
+            "#",
+            "var ${4:myVar} = func (${5:n}){",
+            "\t${0:print(${5:n});}",
+            "};"
+        ],
+        "description": "Snippet: A func template"
+    },
+    "FG Class": {
+        "prefix": [
+            "class"
+        ],
+        "body": [
+            "##",
+            "# ${1:This is the class header}",
+            "# ${2:try to explain what it does.}",
+            "#",
+            "# ${3:Example:  write here an example of code}",
+            "#",
+            "var ${4:myVar} = {",
+            "\tnew: func (${5:n}){",
+            "\t\tvar m = { parents: [${4:myVar}] };",
+            "\t\tm.${5:n} = ${5:n};",
+            "\t\treturn m;",
+            "\t},",
+            "\tdel: func (){",
+            "\t\tme.m = nil;",
+            "\t}",
+            "};"
+        ],
+        "description": "Snippet: A class template"
+    },
+    "FG File Header": {
+        "prefix": [
+            "header",
+            "gplheader"
+        ],
+        "body": [
+            "#This file is part of ${1:FlightGear}.",
+            "#",
+            "#${1:FlightGear} is free software: you can redistribute it and/or modify",
+            "#it under the terms of the GNU General Public License as published by",
+            "#the Free Software Foundation, either version 2 of the License, or",
+            "#(at your option) any later version.",
+            "#",
+            "#${1:FlightGear} is distributed in the hope that it will be useful,",
+            "#but WITHOUT ANY WARRANTY; without even the implied warranty of",
+            "#MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the",
+            "#GNU General Public License for more details.",
+            "#",
+            "#You should have received a copy of the GNU General Public License",
+            "#along with ${1:FlightGear}.  If not, see <http://www.gnu.org/licenses/>."
+        ],
+        "description": "Snippet: A GPL-2 header template"
     }
 }

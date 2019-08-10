@@ -7,6 +7,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.0.2] - 2019-08-09
+
+### Added
+
+- Missing maketimer variables and methods
+- Func and Class snippets
+- GPL-2 file header template snippet, type gplheader
+- GUI.nas variables and methods syntax highlighting
+
+### Fixed
+
+- Setlistener snippet parameters wrongly set
+
 ## [0.0.1] - 2019-08-08
 
 ### Added
