@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.0.3] - 2019-08-11
+
+### Added
+
+- Added class function template snippet
+
+### Fixed
+
+- Class and Func snippets headers
+
 ## [0.0.2] - 2019-08-09
 
 ### Added

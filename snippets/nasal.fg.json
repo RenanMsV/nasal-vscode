@@ -39,13 +39,14 @@
         ],
         "body": [
             "##",
-            "# ${1:This is the function header}",
-            "# ${2:try to explain what it does.}",
+            "# The ${1:myFunc} function does something.",
             "#",
-            "# ${3:Example:  write here an example of code}",
+            "# @params ${2:n} Int which will be the action to do",
+            "# @returns Bool true or false if it couldn't do it",
             "#",
-            "var ${4:myVar} = func (${5:n}){",
-            "\t${0:print(${5:n});}",
+            "var ${1:myFunc} = func (${2:n}){",
+            "\t${0:print(${2:n});",
+            "\treturn false;}",
             "};"
         ],
         "description": "Snippet: A func template"
@@ -56,23 +57,52 @@
         ],
         "body": [
             "##",
-            "# ${1:This is the class header}",
-            "# ${2:try to explain what it does.}",
+            "# This is the ${1:myClass} class header}",
+            "# Try to describe what this class does.}",
             "#",
-            "# ${3:Example:  write here an example of code}",
+            "# Example:  var myVar = ${1:myClass}.new(5325);",
+            "#           myVar.del();",
             "#",
-            "var ${4:myVar} = {",
-            "\tnew: func (${5:n}){",
-            "\t\tvar m = { parents: [${4:myVar}] };",
-            "\t\tm.${5:n} = ${5:n};",
+            "var ${1:myClass} = {",
+            "\t##",
+            "\t# The new function inits a new ${1:myClass} object and returns it.",
+            "\t#",
+            "\t# @params ${2:n} Int which will be the id",
+            "\t# @returns the created object as reference",
+            "\t#",
+            "\tnew: func (${2:n}){",
+            "\t\tvar m = { parents: [${1:myClass}] };",
+            "\t\tm.${2:n} = ${2:n};",
             "\t\treturn m;",
             "\t},",
+            "\t##",
+            "\t# The del function deletes this object",
+            "\t# You should stop timers and unset listeners created by this object.",
+            "\t#",
             "\tdel: func (){",
-            "\t\tme.m = nil;",
+            "\t\tme.${2:n} = nil;",
             "\t}",
             "};"
         ],
         "description": "Snippet: A class template"
+    },
+    "FG ClassFunc": {
+        "prefix": [
+            "classfunc",
+            "funcclass"
+        ],
+        "body": [
+            "##",
+            "# The ${1:myFunc} function does something.",
+            "#",
+            "# @params ${2:n} Int which will be the action to do",
+            "# @returns Bool true or false if it couldn't do it",
+            "#",
+            "${1:myFunc}: func (${2:n}){",
+            "\t${0:return false;}",
+            "},"
+        ],
+        "description": "Snippet: A class func template"
     },
     "FG File Header": {
         "prefix": [
