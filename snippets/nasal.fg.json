@@ -39,7 +39,7 @@
         ],
         "body": [
             "##",
-            "# The ${1:myFunc} function does something.",
+            "# The ${1:myFunc} function does something",
             "#",
             "# @params ${2:n} Int which will be the action to do",
             "# @returns Bool true or false if it couldn't do it",
@@ -57,8 +57,8 @@
         ],
         "body": [
             "##",
-            "# This is the ${1:myClass} class header}",
-            "# Try to describe what this class does.}",
+            "# This is the ${1:myClass} class header",
+            "# Try to describe what this class does",
             "#",
             "# Example:  var myVar = ${1:myClass}.new(5325);",
             "#           myVar.del();",
@@ -93,7 +93,7 @@
         ],
         "body": [
             "##",
-            "# The ${1:myFunc} function does something.",
+            "# The ${1:myFunc} function does something",
             "#",
             "# @params ${2:n} Int which will be the action to do",
             "# @returns Bool true or false if it couldn't do it",
