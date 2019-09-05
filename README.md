@@ -1,7 +1,11 @@
 # nasal-lang
+
 [![nasal-logo](/images/icon.png?raw=true)](https://github.com/RenanMsV/nasal-vscode)
+
+[![Version](https://vsmarketplacebadge.apphb.com/version-short/RenanMsV.nasal-lang.svg)](https://marketplace.visualstudio.com/items?itemName=RenanMsV.nasal-lang) [![Rating](https://vsmarketplacebadge.apphb.com/rating-star/RenanMsV.nasal-lang.svg)](https://marketplace.visualstudio.com/items?itemName=RenanMsV.nasal-lang) [![Installs](https://vsmarketplacebadge.apphb.com/installs-short/RenanMsV.nasal-lang.svg)](https://marketplace.visualstudio.com/items?itemName=RenanMsV.nasal-lang) [![Downloads](https://vsmarketplacebadge.apphb.com/downloads-short/RenanMsV.nasal-lang.svg)](https://marketplace.visualstudio.com/items?itemName=RenanMsV.nasal-lang) [![Build Status](https://travis-ci.com/RenanMsV/nasal-vscode.svg?branch=master)](https://travis-ci.com/RenanMsV/nasal-vscode) [![GNU General Public License](https://img.shields.io/github/license/RenanMsV/nasal-vscode)](http://www.gnu.org/licenses/gpl-3.0.en.html)
 
 Nasal language support for Visual Studio Code
 
-##### Thanks to
+## Thanks to
+
 - @freevryheid for his awesome patterns at [Sublime2/Nasal](https://github.com/freevryheid/nasal)

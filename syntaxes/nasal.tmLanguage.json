@@ -44,7 +44,7 @@
 			"patterns": [
 				{
 					"name": "keyword.control.nasal",
-					"match": "(?i)\\b(if|else|elsif|while|for|foreach|forindex|break|continue|and|or)\\b"
+					"match": "\\b(if|else|elsif|while|for|foreach|forindex|break|continue|and|or)\\b"
 				},
 				{
 					"name": "keyword.control.nasal",
@@ -52,11 +52,11 @@
 				},
 				{
 					"name": "variable.language.nasal",
-					"match": "(?i)\\b(me|arg|parents|obj)\\b"
+					"match": "\\b(me|arg|parents|obj)\\b"
 				},
 				{
 					"name": "storage.type.nas",
-					"match": "(?i)\\b(func|return|var|true|false|nil)\\b"
+					"match": "\\b(func|return|var|nil)\\b"
 				},
 				{
 					"begin": "'",

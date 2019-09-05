@@ -5,7 +5,17 @@ All notable changes to the "Nasal-lang" extension will be documented in this fil
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased]
+## [0.0.5] - 2019-09-04
+
+### Fixed
+
+- Removing True and False keywords as nasal uses 1 and 0 to represent that
+- Keywords are now case sensitive to avoid parsing errors such as 'undefined symbol FUNC'
+
+### Added
+
+- Badges to the Readme
+- .gitignore file
 
 ## [0.0.4] - 2019-08-17
 
