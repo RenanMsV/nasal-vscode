@@ -1,9 +1,23 @@
 # Change Log
 
-All notable changes to the "Nasal-lang" extension will be documented in this file.
+All notable changes to the "Nasal Language (FlightGear)" extension will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## [0.0.6] - 2022-11-17
+
+### Changed
+
+- Display name changed from "Nasal-lang" to "Nasal Language (FlightGear)"
+
+### Added
+
+- Additional information to the readme
+
+### Fixed
+
+- Badges of readme not showing, changed to [shields.io](https://shields.io)
 
 ## [0.0.5] - 2019-09-04
 

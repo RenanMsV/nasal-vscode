@@ -1,8 +1,8 @@
 {
     "name": "nasal-lang",
-    "displayName": "Nasal-lang",
+    "displayName": "Nasal Language (FlightGear)",
     "description": "Nasal language support for Visual Studio Code",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "publisher": "Renan-MsV",
     "author": {
         "name": "RenanMsV https://github.com/RenanMsV"
@@ -27,7 +27,8 @@
     ],
     "keywords": [
         "nasal",
-        "flightgear"
+        "flightgear",
+        "nasl"
     ],
     "contributes": {
         "languages": [{
