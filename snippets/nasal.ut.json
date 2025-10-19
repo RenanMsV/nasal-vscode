@@ -1,0 +1,20 @@
+{
+    "nasal.ut unitTest.assert_equal": {
+        "prefix": [
+            "unitTest"
+        ],
+        "body": [
+            "unitTest.assert_equal(${1:varA}, ${2:varB});"
+        ],
+        "description": "Snippet: A unitTest call"
+    },
+    "nasal.ut unitTest.assert": {
+        "prefix": [
+            "unitTest"
+        ],
+        "body": [
+            "unitTest.assert(${1:varA} == ${2:varB});"
+        ],
+        "description": "Snippet: A unitTest call"
+    }
+}
