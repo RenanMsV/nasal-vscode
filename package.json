@@ -31,28 +31,38 @@
         "nasl"
     ],
     "contributes": {
-        "languages": [{
-            "id": "nasal",
-            "aliases": ["Nasal", "nasal"],
-            "extensions": [".nas"],
-            "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "nasal",
-            "scopeName": "source.nas",
-            "path": "./syntaxes/nasal.tmLanguage.json"
-        }],
-        "snippets": [
+        "languages": [
             {
-                "language": "nasal",
-                "scopeName": "source.nas",
-                "path": "./snippets/nasal.json"
+                "id": "nasal",
+                "aliases": ["Nasal"],
+                "extensions": [".nas"],
+                "configuration": "./language-configuration.json"
             },
             {
-                "language": "nasal",
-                "scopeName": "source.nas",
-                "path": "./snippets/nasal.fg.json"
+                "id": "nasal-unit-tests",
+                "aliases": ["Nasal UT", "nasal ut", "nasal-ut"],
+                "extensions": [".nut"],
+                "configuration": "./language-configuration.json"
             }
+        ],
+        "grammars": [
+            {
+                "language": "nasal",
+                "scopeName": "source.nasal",
+                "path": "./syntaxes/nasal.tmLanguage.json"
+            },
+            {
+                "language": "nasal-unit-tests",
+                "scopeName": "source.nasal.unit-test",
+                "path": "./syntaxes/nasal.ut.tmLanguage.json"
+            }
+        ],
+        "snippets": [
+            { "language": "nasal", "path": "./snippets/nasal.json" },
+            { "language": "nasal", "path": "./snippets/nasal.fg.json" },
+            { "language": "nasal-unit-tests", "path": "./snippets/nasal.json" },
+            { "language": "nasal-unit-tests", "path": "./snippets/nasal.fg.json" },
+            { "language": "nasal-unit-tests", "path": "./snippets/nasal.ut.json" }
         ]
     }
 }

@@ -1,6 +1,8 @@
 {
     "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
     "name": "Nasal",
+    "scopeName": "source.nasal",
+    "fileTypes": ["nas"],
     "patterns": [
         {
             "include": "#general"
@@ -293,6 +295,5 @@
                 }
             ]
         }
-    },
-    "scopeName": "source.nas"
+    }
 }

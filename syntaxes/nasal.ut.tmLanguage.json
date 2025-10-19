@@ -1,0 +1,25 @@
+{
+    "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+    "name": "Nasal Unit Tests",
+    "scopeName": "source.nasal.unit-test",
+    "fileTypes": ["nut"],
+    "injectionSelector": "L:source.nasal",
+    "patterns": [
+        {
+            "include": "source.nasal"
+        },
+        {
+            "include": "#unit-test"
+        }
+    ],
+    "repository": {
+        "unit-test": {
+            "patterns": [
+                {
+                    "name": "entity.name.class.nasal.unit-test",
+                    "match": "\\b(unitTest)\\b"
+                }
+            ]
+        }
+    }
+}
