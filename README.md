@@ -8,10 +8,8 @@
 [![Build Status](https://img.shields.io/github/actions/workflow/status/RenanMsV/nasal-vscode/DEPLOY.yml)](https://github.com/RenanMsV/nasal-vscode/tree/main/.github/workflows)
 [![GNU General Public License](https://img.shields.io/github/license/RenanMsV/nasal-vscode?logo=github)](http://www.gnu.org/licenses/gpl-3.0.en.html)
 
-[![Install from VS Marketplace](https://img.shields.io/badge/Install-VS%20Marketplace-blue?style=for-the-badge&logo=vs-code
-)](https://marketplace.visualstudio.com/items?itemName=Renan-MsV.nasal-lang)  
-[![Install from Open VSX](https://img.shields.io/badge/Install-Open%20VSX-purple?style=for-the-badge&logo=vs-code
-)](https://open-vsx.org/extension/Renan-MsV/nasal-lang)
+[![Install from VS Marketplace](https://img.shields.io/badge/Install-VS%20Marketplace-blue?style=for-the-badge&logo=vs-code)](https://marketplace.visualstudio.com/items?itemName=Renan-MsV.nasal-lang)  
+[![Install from Open VSX](https://img.shields.io/badge/Install-Open%20VSX-purple?style=for-the-badge&logo=vs-code)](https://open-vsx.org/extension/Renan-MsV/nasal-lang)
 
 
 ## What is Nasal?
